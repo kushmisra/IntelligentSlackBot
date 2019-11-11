@@ -3,7 +3,7 @@ var bodyParser     =        require("body-parser");
 const request = require('superagent');
 const SlackBot = require('slackbots');
 const bot = new SlackBot({
-    token: "xoxb-830641149286-830651431558-NYAgQXOJBuK15x5km0M9kwMl",
+    token: "your token here",
     name: "DESQuery"
 });
 require('superagent-auth-bearer')(request);
