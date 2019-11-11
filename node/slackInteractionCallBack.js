@@ -19,7 +19,7 @@ async function openModal(payload) {
     request
         .post('https://slack.com/api/views.open')
         .send(payload) // sends a JSON post body
-        .authBearer('xoxb-830641149286-830651431558-NYAgQXOJBuK15x5km0M9kwMl')
+        .authBearer('your token here')
         .set('Content-Type', 'application/json')
         .end((err, res) => {
             // Calling the end function will send the request
