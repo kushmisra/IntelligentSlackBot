@@ -1,7 +1,7 @@
 const SlackBot = require('slackbots');
 const alreadyVisitedUser = {};
 const bot = new SlackBot({
-    token: "xoxb-830641149286-830651431558-NYAgQXOJBuK15x5km0M9kwMl",
+    token: "Your token here",
     name: "DESQuery"
 });
 
